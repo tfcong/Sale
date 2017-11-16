@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:id="@+id/left_menu"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/background_signup_activity"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/img_account"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_account" />
+        <TextView
+            android:id="@+id/tv_name_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Đăng nhập"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_home"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:textColor="@color/primary_color"
+        android:text="Trang Chủ"
+        android:textAllCaps="false"
+         />
+
+    <Button
+        android:id="@+id/btn_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_product"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:text="Sản Phẩm"
+        android:textColor="@color/primary_color"
+        android:textAllCaps="false"
+         />
+    <Button
+        android:id="@+id/btn_hot_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_hot"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:text="Nổi Bật"
+        android:textColor="@color/primary_color"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btn_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_small_cart"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:text="Giỏ Hàng"
+        android:textColor="@color/primary_color"
+        android:textAllCaps="false"
+      />
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_small_post"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:text="Đăng Tin"
+        android:textColor="@color/primary_color"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/press_left_button"
+        android:drawableLeft="@drawable/icon_notification"
+        android:drawablePadding="16dp"
+        android:gravity="center|left"
+        android:paddingLeft="46dp"
+        android:text="Thông Báo"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_color" />
+</LinearLayout>
